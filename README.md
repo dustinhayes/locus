@@ -27,6 +27,7 @@ locsim.set('http://example.com#locus');
 ```
 
 ### Getting properties from the simulator
+
 #### All properties
 ```javascript
 locsim.get();
@@ -62,6 +63,7 @@ locsim.get('hash');
 When checking for equality, it's based on the current `window.location` object. For these examples lets assume the page we're on is 'http://example.com#random'.
 
 #### Checking for similarities
+
 ##### Check all properties
 ```javascript
 locsim.same()
@@ -82,6 +84,7 @@ locsim.same('protocol');
 ```
 
 #### Checking for differences
+
 ##### Check all properties
 If any of the properties are different, return true
 ```javascript
